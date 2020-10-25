@@ -4,6 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
 
 import Header from "./header"
+import Footer from "./footer"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -22,12 +23,8 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <Wrapper>
         <main>{children}</main>
-        <footer>
-          <p>
-          © {new Date().getFullYear()} eleven x Gatsby
-          </p>
-        </footer>
       </Wrapper>
+      <Footer />
     </>
   )
 }
