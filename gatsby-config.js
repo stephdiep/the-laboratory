@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     // Rename the following for SEO purposes: title, description and author
-    title: `eleven x Gatsby starter template`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `the laboratory`,
+    description: `A space for learning and exchanging.`,
+    author: `@steph_the_dev`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -26,7 +26,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/the-laboratory.svg`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
