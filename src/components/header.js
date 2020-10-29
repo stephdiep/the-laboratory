@@ -10,8 +10,10 @@ const Header = ({ siteTitle }) => (
       <h1>the laboratory</h1>
     </LogoWrapper>
     <NavigationWrapper>
-      <a href="#">firebase</a>
       <a href="#">react</a>
+      <a href="#">gatsby</a>
+      <a href="#">google analytics</a>
+      <a href="#">firebase</a>
       <a href="#">contribute</a>
     </NavigationWrapper>
   </Wrapper>
@@ -47,7 +49,8 @@ const Logo = styled.div`
 const NavigationWrapper = styled.div`
   display: grid;
   gap: 20px;
-  grid-template-columns: repeat(3, auto);
+  align-items: center;
+  grid-template-columns: repeat(5, auto);
 
   a {
     color: white;
