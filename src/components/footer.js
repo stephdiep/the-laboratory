@@ -44,7 +44,7 @@ const Footer = () => (
 export default Footer
 
 const Wrapper = styled.div`
-  padding: 30px 40px;
+  padding: 30px 60px;
   border-top: 5px solid #7CA3DC;
   position: relative;
   display: flex;

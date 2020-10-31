@@ -36,5 +36,5 @@ Layout.propTypes = {
 export default Layout
 
 const Wrapper = styled.div`
-  padding: 40px;
+  padding: 40px 60px;
 `
