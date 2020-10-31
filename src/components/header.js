@@ -25,7 +25,7 @@ const Wrapper = styled.div`
   background-color: #7CA3DC;
   display: flex;
   justify-content: space-between;
-  padding: 30px 40px;
+  padding: 30px 60px;
 `
 
 const LogoWrapper = styled.div`
